@@ -4,6 +4,10 @@ header h1{
     color: white;
 }
 
+header img{
+    width: 100px;
+}
+
 header{
     background-color: #004080;
     padding: 20px;
@@ -146,6 +150,10 @@ form{
     border-radius: 10px;
     text-align: center;
     width: 33%;
+}
+
+td img{
+    width: 100%;
 }
 
 #e{
