@@ -1,0 +1,204 @@
+/*index.html*/
+
+header h1{
+    color: white;
+}
+
+header{
+    background-color: #004080;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #003366;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#about{
+    display: flex;
+    background-color: #d4d4d4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about p{
+    color: black;
+}
+
+#about h2{
+    color: #004080;
+}
+
+.features{
+    font-weight: bold;
+}
+
+.index_list{
+    list-style: none;
+}
+.index_list li::before{
+    content: "- ";
+}
+
+footer{
+    display: flex;
+    background-color: #004080;
+    padding: 10px;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+}
+
+/*login.html*/
+
+.main_login{
+    text-align: center;
+}
+
+.main_login h2{
+    color: #003366;
+    margin-top: 70px;
+}
+
+form{
+    padding: 25px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d4d4d4;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.input_field{
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: darkgrey;
+    border-width: 3px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.button_login{
+    padding: 7px;
+    background-color: #008000;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+.button_login:hover{
+    background-color: #006600;
+
+}
+
+.main_login form a{
+    color: #004080;
+    text-decoration: none;
+}
+
+.main_login form a:hover{
+    text-decoration: underline;
+}
+
+.buttons{
+    margin-bottom: 30px;
+}
+
+
+/*course_view.html*/
+
+.term{
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tile{
+    background-color: #e6f2ff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 33%;
+}
+
+#e{
+    width: 33%;
+}
+
+#p{
+    width: 50%;
+}
+
+.select{
+    text-align: center;
+}
+
+.select h2{
+    color: #003366;
+}
+
+#term{
+    background-color: lightyellow;
+}
+
+.button_a{
+    background-color: #4caf50;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    padding: 5px;
+}
+
+.button_a:hover{
+    background-color: #265e28;
+}
+
+.button_d{
+    background-color: #d32f2f;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    padding: 5px;
+
+}
+
+.button_d:hover{
+    background-color: #821b1b;
+}
+
+.pending_h2{
+    text-align: center;
+}
+
+.pending_h2 h2{
+    color: #003366;
+}
+
+/*attempt_quiz.html*/
