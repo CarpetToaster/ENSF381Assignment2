@@ -210,3 +210,60 @@ td img{
 }
 
 /*attempt_quiz.html*/
+.quiz{
+    text-align:center;
+}
+.quiz img{
+    width:95%;
+    height:150px;
+    border-radius:10px;
+    margin-top:30px;
+}
+
+.quizInfo{
+    text-align:center;
+    text-decoration:bold;
+    background:lightblue;
+    padding:20px;
+    margin-right:250px;
+    margin-left:250px;
+}
+
+.quizInfo h2{
+    color:#003366;
+}
+
+.quizQuestion{
+    background-color:#cacaca;
+    margin-right:35%;
+    margin-left:35%;
+    margin-bottom:15px;
+    text-align:left;
+    padding:15px;
+}
+
+.quiz button{
+    background-color:lightblue;
+    color:black;
+    padding:7px;
+    border:0;
+    border-radius:3px;
+}
+
+.quiz button:hover{
+    background-color:darkblue;
+    color:white;
+}
+
+.quiz #finish{
+    background-color:#d32f2f;
+    color:white;
+}
+
+.quiz #finish:hover{
+    background-color:#821b1b;
+}
+
+
+
+
